@@ -1,0 +1,36 @@
+/node_modules/
+/public/build/
+
+.DS_Store
+.vscode
+.nyc_output
+*.ap
+dist/
+coverage/
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+bundle.*
+
+# local env files
+.env.local
+.env.*.local
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+# Log files
+npm-debug.log*
